@@ -8,7 +8,7 @@ contract PoolTower {
     //access a specific pool stats
     //register new pool
 
-    function register() external {}
+    function registerPool() external {}
 
     function fetchPoolByIdentifier(bytes32) external view {}
 
@@ -18,7 +18,9 @@ contract PoolTower {
 
     function userPools() external view {}
 
-    function userStakesAll() external view {}
+    function userAllStakes() external view {}
 
-    function userStakesOne(uint _index) external view {}
+    function listUserPools() external view {}
+
+    function userStakesOne() external view {}
 }

@@ -12,12 +12,12 @@ contract ValidatorTower {
     //Track validator pool
     //Verify appropriate balance
 
-    function verifyHasMasterNode() external {}
+    function verifyHasMasterNode() external view{}
 
     function registerAsValidator() external {}
 
     ///Reputation, pool, stats/perf
-    function fetchValidator() external {}
+    function fetchValidator() external view{}
 
     function exitValidator() external {}
 
