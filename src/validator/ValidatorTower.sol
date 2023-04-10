@@ -23,4 +23,6 @@ contract ValidatorTower {
 
     function isValidator() public view returns(bool) {}
 
+    function validatorPools() public view {}
+
 }
